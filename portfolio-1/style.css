@@ -1,0 +1,57 @@
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff; /* Adjust as needed */
+    z-index: 100; /* Adjust as needed */
+}
+
+#photo{
+    display: flex;
+    position: relative;
+    top: 30px;
+    float: left;
+}
+.circle{
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.name{
+    position:absolute;
+    color:#2200ff;
+    
+    left: 15%;
+}
+.prof{
+    position:relative;
+    color: blue;
+    display: flex;
+    top: 30px;
+    left:15% ;
+}
+.me{
+    position: relative;
+    top: 100px;
+    right: 200px ;
+    float: left;
+    width: 30%  ;
+}
+#proj{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 600px;
+}
+#skil{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1200px;
+
+}
+#act{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1800px;
+}
